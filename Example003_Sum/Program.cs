@@ -1,4 +1,6 @@
-﻿int numberA = 3; //для переменных не принято использовать нижнее подчеркивание, но можно цифры, главное с них не начинать
-int numberB = 5;
+﻿int numberA = new Random().Next(1, 10); //для переменных не принято использовать нижнее подчеркивание, но можно цифры, главное с них не начинать
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1, 10); // случайное число 1, 2, ... 9
+Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
